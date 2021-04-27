@@ -5,6 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Vector;
 
+//@SuppressWarnings("unchecked") 
 public class ListDemo {
 
 	public static void main(String[] args) {

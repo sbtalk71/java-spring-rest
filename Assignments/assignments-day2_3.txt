@@ -1,0 +1,40 @@
+	Day2 and 3 --Assignments
+	
+1.	Write a program which catches an NullPointerException and re throws as a user defined exception(MyNullPointerException which is a checked exception)
+2.	Write the program to test nested try catch
+
+3.	Create a class which implements AccountOperationsInterface
+Interface AccountOperationsInterface
+{
+public double deposit(double amt) throws AccountBlockedException
+public double withdraw(double amt) throws AccountBlockedException,InsufficientBalanceException
+public double getBalance() throws AccountBlockedException
+public void blockAccount();
+}
+
+Write a class Account which implements the above interface and provide necessary methods and properties.
+Test the methods by throwing Exceptions and processing them for the following:
+1)	If account is blocked, the customer cannot deposit and withdraw, hence it should throw the appropriate exception.
+2)	If amount exceeds the available balance, it should throw appropriate exception.
+
+
+Threads:
+1. Create an array of 10 String objects. 
+Using thread each string should be changed to Uppercase.
+
+Write an appropriate programs to demonstrate the application of thread to achieve the above task.
+Use the given class for Executor Framework also means Do the uppercase problem using Executor Framework
+
+Collections: 
+1. Create a Shopping cart aplication which has methods for
+a) add item
+b) remove item
+c) display cart
+
+Use a Map to create the cart application.
+if a duplicate item is added then it increments the number of that item.
+
+Use a main methode to test your application
+
+
+

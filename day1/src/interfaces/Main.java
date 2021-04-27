@@ -9,6 +9,8 @@ public class Main {
 		rm.changeChannel(10);
 		rm.changeChannel(12);
 		rm.off();
+		rm.update();
+		System.out.println("i am here");
 	}
 
 }

@@ -10,6 +10,8 @@ public interface AppRemote {
 
 	public void changeChannel(int channel);
 	
-	
+	default void update() {
+		throw new IllegalStateException("not Yet implemented..");
+	};
 
 }
