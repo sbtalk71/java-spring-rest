@@ -9,6 +9,7 @@ public class Greeter {
 	}
 
 	public Greeter(Message message) {
+		System.out.println("Message injected in constructor..");
 		this.message = message;
 	}
 
@@ -17,6 +18,7 @@ public class Greeter {
 	}
 
 	public void setMessage(Message message) {
+		System.out.println(" Message is set "+message.getMessageText());
 		this.message = message;
 	}
 
