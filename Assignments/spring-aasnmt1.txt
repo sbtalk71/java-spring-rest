@@ -1,0 +1,5 @@
+1. Create a class Mail with dependecy of Message.
+2. Message has header and body.
+2a. Mail has fields toAddress:String, fromAddress:String and message:Message
+3. configure dependency injection of Message and Mail in context.xml
+4. Get and Object of Mail and verify the Message.
