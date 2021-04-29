@@ -13,6 +13,7 @@ public class BoxMain {
 		Box cube=new Box(10);
 		
 		//display the color, wt and volume of each Box Type
+		box2=null;
 
 	}
 
