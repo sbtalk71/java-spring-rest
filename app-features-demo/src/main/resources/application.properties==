@@ -1,0 +1,6 @@
+spring.main.banner-mode=off
+
+logging.level.org.springframework.boot=warn
+logging.level.com.demo.spring=info
+
+message=Hello from Spring boot

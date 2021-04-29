@@ -1,0 +1,7 @@
+spring:
+  main:
+    banner-mode: off
+logging:  level:    '[org.springframework.boot]': debug
+    '[com.demo.spring]': warn
+    
+message: Welcome to YAML Format
