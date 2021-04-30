@@ -9,12 +9,14 @@ public class MyDemoRunner implements CommandLineRunner {
 
 	@Autowired
 	Greeter greeter;
-	
+
 	@Override
 	public void run(String... args) throws Exception {
 		
 		System.out.println(greeter.getGreet());
 
 	}
+	
+	
 
 }
